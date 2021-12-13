@@ -7,8 +7,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
-        <!-- Default Stylesheets -->
+        <title>Clothes 4 Men</title>
+        
         <%@include file="includesPage/_stylesheets.jsp" %>
 
         <link rel="stylesheet" href="css/slider.css"  />
@@ -65,9 +65,7 @@
                             usersession.setAttribute("admin", Integer.parseInt(lid));
                             usersession.setAttribute("Cart",(HashMap<Integer,Cart>)hm);
                             new top_10_thread(getServletContext()).start();
-                            new month_report_thread(getServletContext()).start();
-                            new Year_wise_sold_report(getServletContext()).start();
-                            new Year_wise_user_report(getServletContext()).start();
+                            
 
                         } else if (type.equals("public")) {
                             usersession.setAttribute("user", Integer.parseInt(lid));
@@ -106,15 +104,15 @@
 
                         <li class="sliderImage" style="display: none; ">
 
-                            <img src="images/banner/b1.png" width="900" height="300" /> 
+                            <img src="images/banner/1.jpg" width="900" height="300" /> 
 
                             <span class="top" style="display: none; ">
 
-                                <strong>Fountain Pens...</strong>	
+                                <strong>Black Men's Coats...</strong>	
 
-                                <br>From the International and Indian markets, we have the variety of the High Class fountain 
+                                <br>From the International and Indian markets, we have the variety of the High Class suits 
 
-                                pens. Available now for you to get your hands on.
+                               . Available now for you to get your hands on.
 
                             </span>
 
@@ -125,16 +123,12 @@
 
                             <span class="top" style="display: none; ">
 
-                                <strong>Books, Diaries...</strong>				
+                                <strong>Trousers, Shorts...</strong>				
 
-                                <br>Text Books, Single Lines, Double Lines, Red 'n Blue Lines, Fullscape Books
-
-                                Drawing Books, and all the paper you want to write all throughout to learn 
-
-                                Available now at your doorsteps* 
-
-
-
+                                <br>Fashion and style have been a major cultural preoccupation
+                                since man first admired  himself in the skin of woolly mammoth whilst 
+                                gazing at his reflection in the primordial swamp* 
+                                
                             </span>
 
                         </li>  
@@ -147,13 +141,9 @@
 
                             <span class="top" style="display: none; ">
 
-                                <strong>Kids Colors...</strong>				
+                                <strong>Style and Individuality...</strong>				
 
-                                <br>Collection of Non-Toxic childrens colors available
-
-                                Let your child learn the art of painting at an early age 
-
-                                by having his hands on the colors available here... 
+                                <br>Clothes make man. Naked people have little or no influence on the society 
 
                             </span>
 
@@ -165,15 +155,10 @@
 
                             <span class="top" style="display: none; ">
 
-                                <strong>Graphic Novels...</strong>				
+                                <strong>Art of Dressing Well...</strong>				
 
-                                <br>The most amazing titles that you always wanted to get your hands onn.. 
-
-                                Now you have the opportunity to have them all in your personal library.
-
-                                International as well as Indian titles of many authors available
-
-                            </span>
+                                <br>Mens's  Fashions all start as sports clothes and progress to 
+                                the great occasions of state of state.             </span>
 
                         </li>   
 
@@ -187,9 +172,9 @@
 
                                 <strong>Color World...</strong>				
 
-                                <br>A vast variety of different sets of colors including Oil-Pastels,
+                                <br>A vast variety of different sets of colors including trousers,
 
-                                Pencil Colors, Poster Colors, Acrylic Colors and many more...
+                                shirst, office shirt Colors, Acrylic Colors and many more...
 
                             </span>
 
@@ -204,11 +189,11 @@
 
                             <span class="top" style="display: none; ">
 
-                                <strong>Geometry Toolkit...</strong>				
+                                <strong>Dress Toolkit...</strong>				
 
-                                <br>Geometry Toolkit For EveryOne!!!,
-
-                                The Best in Engineering Geometry...
+                                <br>To achieve the nonchalance which is absolutely necessary
+                                
+                                for a man ,One article at least must not match...
 
                             </span>
 
@@ -222,11 +207,11 @@
 
                             <span class="top" style="display: none; ">
 
-                                <strong>Geometry Toolkit...</strong>				
+                                <strong>Dress Toolkit...</strong>				
 
-                                <br>Geometry Toolkit For EveryOne!!!,
-
-                                The Best in Engineering Geometry...
+                                <br>To achieve the nonchalance which is absolutely necessary
+                                
+                                for a man ,One article at least must not match...
 
                             </span>
 

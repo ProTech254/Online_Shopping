@@ -11,7 +11,7 @@
             </div>
             <div class="grid_3">
                 <ul>
-                    <li><strong>SaiKiran</strong></li>
+                    <li><strong>ProTech Corporation</strong></li>
                     <li><a href="contact-support.jsp">Contact Us</a></li>
                     <li><a href="contact-support.jsp">About Us</a></li>
                     <li><a href="faq.jsp">Careers</a></li>
@@ -32,7 +32,7 @@
         </div>
         <div id="clear"></div>
         <div class="grid_16">	
-            <p>Copyrights &copy; 2016 SaiKiran BookStores - The Online Megastore</p>
+            <p>Copyrights &copy; 2021 Clothes 4 Men - The Online Megastore</p>
     </div>
 </div>
 </div>

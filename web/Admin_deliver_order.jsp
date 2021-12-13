@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Admin_deliver_order
-    Created on : Apr 13, 2016, 12:11:35 PM
-    Author     : Vicky
---%>
+
 
 
 
@@ -16,7 +12,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title> Clothes 4 Men Stores </title>
 
 
         <link rel="shortcut icon" href="images/logo/ico.ico"/>

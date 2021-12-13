@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Admin_new_add
-    Created on : Apr 29, 2016, 2:08:36 PM
-    Author     : Vicky
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -12,7 +8,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title> Clothes 4 Men Stores </title>
         <!-- Default Stylesheets -->
         <%@include file="includesPage/_stylesheets.jsp" %>
 

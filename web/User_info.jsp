@@ -1,8 +1,4 @@
-<%-- 
-    Document   : User_info
-    Created on : Mar 27, 2016, 7:06:54 PM
-    Author     : DELL
---%>
+
 
 <%@page import="java.sql.*, database.*" %>
 <%@page import="database.*"%>
@@ -13,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title> Clothes 4 Men Stores </title>
 
 
         <link rel="shortcut icon" href="images/logo/ico.ico"/>

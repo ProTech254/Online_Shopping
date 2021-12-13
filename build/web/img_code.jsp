@@ -1,8 +1,4 @@
-<%-- 
-    Document   : img_code
-    Created on : Apr 30, 2016, 2:56:17 PM
-    Author     : Vicky
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

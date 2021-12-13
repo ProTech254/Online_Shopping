@@ -1,8 +1,3 @@
-<%-- 
-    Document   : reset_password
-    Created on : Mar 26, 2016, 11:08:45 AM
-    Author     : DELL
---%>
 
 <style type="text/css">
     .prodGrid {

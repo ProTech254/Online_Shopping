@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Admin_All_Special
-    Created on : May 2, 2016, 10:04:24 AM
-    Author     : Vicky
---%>
+
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.Connection"%>

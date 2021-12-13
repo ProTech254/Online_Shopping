@@ -1,9 +1,3 @@
-<%-- 
-    Document   : dealer_price_view
-    Created on : Apr 18, 2016, 6:38:23 PM
-    Author     : Vicky
---%>
-
 
 <%@page import="java.util.HashMap"%>
 <%@page import="java.sql.ResultSet"%>
@@ -16,7 +10,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title> Clothes 4 Men Stores </title>
 
         <%@page import="java.sql.*, database.*" %>
         <link rel="shortcut icon" href="images/logo/ico.ico"/>

@@ -12,20 +12,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.commons.fileupload.FileItem;
-import org.apache.commons.fileupload.FileUploadException;
-import org.apache.commons.fileupload.disk.DiskFileItemFactory;
-import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import database.*;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import javax.servlet.RequestDispatcher;
 
-/**
- *
- * @author Vicky
- */
 @WebServlet(name = "Add_new_product", urlPatterns = {"/Add_new_product"})
 public class Add_new_product extends HttpServlet {
 

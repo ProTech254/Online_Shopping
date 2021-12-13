@@ -1,8 +1,4 @@
-<%-- 
-    Document   : loader
-    Created on : Apr 20, 2016, 2:27:51 PM
-    Author     : Vicky
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

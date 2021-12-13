@@ -8,7 +8,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title> Clothes 4 Men Stores </title>
 
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
         <link rel="stylesheet" type="text/css" href="css/reset.css"/>

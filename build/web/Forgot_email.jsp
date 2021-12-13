@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Forgot_email
-    Created on : Mar 25, 2016, 2:07:41 PM
-    Author     : DELL
---%>
+
 
 <style type="text/css">
     .prodGrid {

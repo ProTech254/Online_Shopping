@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Admin_add_new_product
-    Created on : Apr 30, 2016, 10:49:48 PM
-    Author     : Vicky
---%>
+
 
 <%@page import="sun.security.action.GetIntegerAction"%>
 <%@page import="java.util.ArrayList"%>
@@ -16,7 +12,7 @@
 
 <html>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>SaiKiran BookStores</title>
+    <title> Clothes 4 Men Stores </title>
     <link rel="shortcut icon" href="images/logo/ico.ico"/>
     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="css/text.css"/>
@@ -212,9 +208,9 @@
     <jsp:include page="includesPage/_logout.jsp"></jsp:include>
     <%            }
 
-        if (session.getAttribute("admin") == null) {
-            response.sendRedirect("index.jsp");
-        }
+//        if (session.getAttribute("admin") == null) {
+//            response.sendRedirect("index.jsp");
+//        }
 
     %>
 
@@ -284,29 +280,7 @@
 
 
 
-                    <%
-                        if (request.getParameter(
-                                "cid") != null) {
-                            Statement st1 = cnn.createStatement();
-                            ResultSet rs1 = st1.executeQuery("select sub_id,sub_name from tbl_sub_cat where c_id = " + request.getParameter("cid")+" and status = 'true'");
-                    %>
-
-
-                    <div class="grid_2">
-                        Sub-Category
-                    </div>
-                    <div class="grid_5">
-                        <select id="selectsubcat" name="sub_category" style="margin:  +2px">
-                            <option value="" selected><%= "Select Sub-Category"%></option>
-                            <% while (rs1.next()) {%>
-                            <option value="<%= rs1.getInt(1)%>"><%= rs1.getString(2)%></option>
-                            <% }%>
-                        </select>
-                        <br>
-                        <label id="subcatmsg1"></label>
-                    </div>
-                    <div class="clear"></div><br/>
-                    <% }%>
+                   
 
 
 

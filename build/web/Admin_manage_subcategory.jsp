@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Admin_manage_subcategory
-    Created on : Apr 11, 2016, 1:43:24 PM
-    Author     : Vicky
---%>
+
 
 <%@ page import="database.*"%>
 <%@ page import="java.sql.*"%>

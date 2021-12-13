@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Forgot_email_index
-    Created on : Mar 25, 2016, 2:12:52 PM
-    Author     : DELL
---%>
+
 
 <!DOCTYPE HTML>
 <%@page import="java.sql.*"%>
@@ -11,7 +7,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title> Clothes 4 Men Stores </title>
         <!-- Default Stylesheets -->
         <%@include file="includesPage/_stylesheets.jsp" %>
 

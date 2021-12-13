@@ -1,15 +1,10 @@
-<%-- 
-    Document   : Add_product_dealer
-    Created on : Apr 16, 2016, 10:47:45 PM
-    Author     : Vicky
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>SaiKiran BookStores</title>
+        <title>Clothes 4 Men Stores</title>
     </head>
     <link rel="shortcut icon" href="images/logo/ico.ico"/>
     <link rel="stylesheet" type="text/css" href="css/reset.css"/>

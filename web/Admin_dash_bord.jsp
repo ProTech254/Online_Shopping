@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Admin_dash_bord
-    Created on : Apr 8, 2016, 9:36:19 PM
-    Author     : Vicky
---%>
+
 
 
 <%@page import="java.sql.ResultSet"%>
@@ -14,7 +10,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title> Clothes 4 Men Stores </title>
 
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
         <link rel="stylesheet" type="text/css" href="css/reset.css"/>
@@ -503,7 +499,7 @@
     <%
         if (session.getAttribute("user") == null) {// THen new user, show join now
 
-            response.sendRedirect(request.getContextPath() + "/index.jsp");
+//            response.sendRedirect(request.getContextPath() + "/index.jsp");
 
         } else {
     %>
@@ -520,6 +516,8 @@
 
 
         <div class="container_16">
+            
+           
             <div id = "contents">
                 <!-- LeftSide -->
 
@@ -530,14 +528,14 @@
                             <li><a href="Admin_dash_bord.jsp" ><strong>Dash Home</strong></a></li>
                             <li><a target="_blank" href="Admin_add_new_product.jsp"><strong>Add Product</strong></a></li>
                             <li><a href="#" onclick="show('Admin_manage_category.jsp')"><strong>Manage Category</strong></a></li>
-                            <li><a href="#" onclick="show('Admin_manage_subcategory.jsp')"><strong>Sub-Category</strong></a></li>
+<!--                            <li><a href="#" onclick="show('Admin_manage_subcategory.jsp')"><strong>Sub-Category</strong></a></li>-->
                             <li><a href="#" onclick="show('Admin_manage_product_all.jsp')"><strong>Manage Product</strong></a></li>
                             <li><a target="_blank" href="Admin_pendingOrders.jsp"><strong>Pending Orders</strong></a></li>
                             <li><a target="_blank" href="Admin_deliver_order.jsp"><strong>Approved Orders</strong></a></li>
                             <li><a target="_blank" href="Admin_finish_order.jsp"><strong>Delivered Orders</strong></a></li>
                             <li><a target="_blank" href="Admin_new_add.jsp"><strong>Add New Admin</strong></a></li>
-                            <li><a href="#" onclick="show('Admin_All_Special.jsp')"><strong>Manage Special</strong></a></li>
-                            <li><a href="#" onclick="show('Admin_year_graph.jsp')"><strong>Year wish Report</strong></a></li>
+<!--                            <li><a href="#" onclick="show('Admin_All_Special.jsp')"><strong>Manage Special</strong></a></li>-->
+<!--                            <li><a href="#" onclick="show('Admin_year_graph.jsp')"><strong>Year wish Report</strong></a></li>-->
                         </ul>
                     </div>
 

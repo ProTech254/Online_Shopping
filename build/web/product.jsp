@@ -7,7 +7,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>Clothes 4 Men</title>
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
 
         <link rel="stylesheet" type="text/css" href="css/reset.css"/>
@@ -94,8 +94,6 @@
             if (request.getParameter("id") == null) {
                 response.sendRedirect(request.getContextPath() + "/index.jsp");
             } else {
-
-
                 Statement st2 = cnn.createStatement();
                 ResultSet rs2 = st2.executeQuery("select * from tbl_special_product where p_id = " + id);
                 boolean b = false;
@@ -104,7 +102,7 @@
                 }
                 if (b) {
                     Statement st3 = cnn.createStatement();
-                    ResultSet rs3 = st3.executeQuery("select * from tbl_special_product where l_id = " + session.getAttribute("user"));
+                    ResultSet rs3 = st3.executeQuery("select * from tbl_special_product where p_id = " + session.getAttribute("user"));
                     boolean login_check = true;
                     while (rs3.next()) {
 

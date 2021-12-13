@@ -1,9 +1,3 @@
-<%-- 
-    Document   : Admin_year_graph
-    Created on : Apr 13, 2016, 1:03:07 PM
-    Author     : Vicky
---%>
-
 
 <%@page import="org.jfree.data.time.Year"%>
 <%@page import="org.jfree.chart.plot.PlotOrientation"%>

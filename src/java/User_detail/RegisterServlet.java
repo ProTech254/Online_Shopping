@@ -77,12 +77,20 @@ public class RegisterServlet extends HttpServlet {
                         st1.execute("insert into tbl_user_detail values(null," + lid + ",'" + req.getParameter("fname") + "','" + req.getParameter("lname") + "','" + req.getParameter("gender") + "','" + req.getParameter("mobileNum") + "','" + req.getParameter("address") + "',1,1,1,'" + req.getParameter("pincode") + "','" + dateFormat.format(date) + "','" + dateFormat.format(date) + "')");
                     } else 
                     {
-                        CallableStatement cb = cnn.prepareCall("{call st_new_user(?,?,?,?)}");
-                        cb.setString(1,req.getParameter("emailReg"));
-                        cb.setString(2,Encrypt_pass);
-                        cb.setString(3, type);
-                        cb.setString(4,null);
-                        cb.execute();
+                        st1.execute("insert into tbl_login values(null,'" + req.getParameter("emailReg") + "','" + Encrypt_pass + "','" + type + "')");
+
+                        ResultSet rs = st.executeQuery("select max(l_id) from tbl_login");
+                        while (rs.next()) {
+                            lid = rs.getInt(1);
+
+                        }
+                        st1.execute("insert into tbl_user_detail values(null," + lid + ",'" + req.getParameter("fname") + "','" + req.getParameter("lname") + "','" + req.getParameter("gender") + "','" + req.getParameter("mobileNum") + "','" + req.getParameter("address") + "',1,1,1,'" + req.getParameter("pincode") + "','" + dateFormat.format(date) + "','" + dateFormat.format(date) + "')");
+//                        CallableStatement cb = cnn.prepareCall("{call st_new_user(?,?,?,?)}");
+//                        cb.setString(1,req.getParameter("emailReg"));
+//                        cb.setString(2,Encrypt_pass);
+//                        cb.setString(3, type);
+//                        cb.setString(4,null);
+//                        cb.execute();
                         //st1.execute("insert into tbl_user_detail values(null," + lid + ",null,null,null,null,null,null,null,null,null,'" + dateFormat.format(date) + "','" + dateFormat.format(date) + "')");
                     }
 

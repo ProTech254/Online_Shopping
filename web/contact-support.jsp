@@ -1,8 +1,4 @@
-<%-- 
-    Document   : contact-support
-    Created on : 14 Dec, 2012, 12:38:53 AM
-    Author     : chirag
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.sql.*, database.*" %>
@@ -11,7 +7,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>Clothes 4 Men  - Home of Mens Dressing</title>
         
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
         <link rel="stylesheet" type="text/css" href="css/reset.css"/>
@@ -106,7 +102,7 @@
                 <div class="grid_5">
                     
                     <div class="grid_3 ">
-                        Saikiran BookStores
+                      Clothes 4 Men  
                     </div>
                     <div class="clear ">
                     </div>
@@ -114,7 +110,7 @@
                         Email:
                     </div>
                     <div class="grid_3">
-                        vicky123modi@gmail.com
+                        ProTech@gmail.com
                     </div>
                     <div class="grid_1">
                         Address:

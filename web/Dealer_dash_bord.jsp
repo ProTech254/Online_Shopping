@@ -1,8 +1,3 @@
-<%-- 
-    Document   : Dealer_dash_bord
-    Created on : Apr 17, 2016, 6:06:00 PM
-    Author     : Vicky
---%>
 
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
@@ -13,7 +8,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title>Clothes 4 Men Stores</title>
 
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
         <link rel="stylesheet" type="text/css" href="css/reset.css"/>

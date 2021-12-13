@@ -41,12 +41,8 @@
                         }
                     }
                 }
-
-
                 // login of product display 0-4,1*4-4,2*4-4 
-                
-                
-                
+                         
                 cname = request.getParameter("sc_name");
             }
 %>

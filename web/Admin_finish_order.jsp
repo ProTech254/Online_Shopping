@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Admin_finish_order
-    Created on : Apr 13, 2016, 12:27:20 PM
-    Author     : Vicky
---%>
+
 
 
 <%@page import="com.sun.org.apache.regexp.internal.REUtil"%>
@@ -15,7 +11,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title> Clothes 4 Men Stores </title>
 
 
         <link rel="shortcut icon" href="images/logo/ico.ico"/>

@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Add_to_cart
-    Created on : Apr 3, 2016, 5:53:50 PM
-    Author     : DELL
---%>
+
 
 <%@page import="sun.misc.REException"%>
 <%@page import="Add_To_Cart.Cart"%>
@@ -17,7 +13,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores - Cart</title>
+        <title>Clothes 4 Men Stores - Cart</title>
         <!-- Default Stylesheets -->
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
 

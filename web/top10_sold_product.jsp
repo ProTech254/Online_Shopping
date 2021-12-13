@@ -1,8 +1,3 @@
-<%-- 
-    Document   : top10_sold_product
-    Created on : Apr 9, 2016, 6:15:44 PM
-    Author     : Vicky
---%>
 
 <%@page import="org.jfree.data.time.Year"%>
 <%@page import="org.jfree.chart.plot.PlotOrientation"%>

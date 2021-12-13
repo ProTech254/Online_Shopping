@@ -1,13 +1,9 @@
-<%-- 
-    Document   : message1
-    Created on : Mar 26, 2016, 9:12:33 PM
-    Author     : DELL
---%>
+
 <!DOCTYPE HTML>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>SaiKiran BookStores</title>
+        <title> Clothes 4 Men Stores </title>
         <link rel="shortcut icon" href="images/logo/ico.ico"/>
 
         <link rel="stylesheet" type="text/css" href="css/reset.css"/>

@@ -1,8 +1,4 @@
-<%-- 
-    Document   : Forgot_email_code
-    Created on : Mar 26, 2016, 12:41:44 AM
-    Author     : DELL
---%>
+
 <%@page import="java.util.Locale.Category"%>
 
 <style type="text/css">

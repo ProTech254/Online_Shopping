@@ -1,8 +1,3 @@
-<%-- 
-    Document   : Admin_manage_category
-    Created on : Apr 10, 2016, 11:09:54 PM
-    Author     : Vicky
---%>
 
 <%@ page import="database.*"%>
 <%@ page import="java.sql.*"%>
